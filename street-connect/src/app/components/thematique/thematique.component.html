@@ -1,0 +1,11 @@
+<app-sujet *ngIf="sujet !== undefined" [id]="sujet.id" [titre]="sujet.titre" [auteur]="sujet.auteur" [text]="sujet.text"></app-sujet>
+
+
+<div *ngFor="let message of messages">
+    <app-message [pseudo]="message.pseudo" [text]="message.text"></app-message>
+</div>
+<mat-form-field style="width: 50%;">
+    <mat-label>Envoyer un commentaire</mat-label>
+    <input class="toolbar-search" type="text" matInput >
+    <mat-icon matSuffix>play_arrow</mat-icon>
+</mat-form-field>
