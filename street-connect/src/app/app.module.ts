@@ -13,6 +13,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import { ThematiqueComponent } from './components/thematique/thematique.component';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatCardModule} from '@angular/material/card';
+import {MatSelectModule} from '@angular/material/select';
 import { MessageComponent } from './components/thematique/message/message.component';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
@@ -46,7 +47,8 @@ import { ConnexionComponent } from './components/login/connexion/connexion.compo
     MatCardModule,
     MatInputModule,
     MatFormFieldModule,
-    FormsModule
+    FormsModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

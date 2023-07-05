@@ -4,8 +4,11 @@
 <div *ngFor="let message of messages">
     <app-message [pseudo]="message.pseudo" [text]="message.text"></app-message>
 </div>
-<mat-form-field style="width: 50%;">
+
+<mat-form-field  class="envoyer" >
     <mat-label>Envoyer un commentaire</mat-label>
     <input class="toolbar-search" type="text" matInput >
     <mat-icon matSuffix>play_arrow</mat-icon>
 </mat-form-field>
+    
+

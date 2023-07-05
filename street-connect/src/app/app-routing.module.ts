@@ -9,7 +9,7 @@ import { ConnexionComponent } from './components/login/connexion/connexion.compo
 
 
 const routes: Routes = [
-  { path: '', component: AppComponent, },
+  { path: '', component: ForumComponent, },
   { path: 'forum', component: ForumComponent} ,
   { path: 'thematique/:id', component: ThematiqueComponent },
   { path: 'inscription', component: InscriptionComponent },
