@@ -4,7 +4,7 @@ import { Sujet } from "../model/sujet.model";
 export class Data {
     sujets : Sujet[] = [
         {id : 1, titre :'COMMENT NE PAS AVOIR FROID LA NUIT ?', text : 'La nuit commence a être froide, comment faites vous ?', auteur: 'Jack'},
-        {id : 2, titre :'MON EXEPERIENCE DEHORS', text : 'Comment se proteger des agressions ?', auteur: 'Enzo'},
+        {id : 2, titre :'MON EXPERIENCE DEHORS', text : 'Comment se proteger des agressions ?', auteur: 'Enzo'},
         {id : 3, titre :'SE NOURIR QUAND ON GALÈRE', text : 'Vous faites comment pour vos démarches en ligne ?', auteur: 'Diane'},
           ];
 
